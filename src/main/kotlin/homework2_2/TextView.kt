@@ -5,3 +5,4 @@ open class TextView (textView: String): View(){
     var text: String = textView
 
 }
+

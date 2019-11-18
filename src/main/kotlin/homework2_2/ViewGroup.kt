@@ -1,10 +1,12 @@
 package homework2_2
 
-class ViewGroup(): View() {
+class ViewGroup: View() {
 
-     fun addView(addView: View) {
+    var view = View()
 
-         var addViewGroup = addView
+    fun addView(addView: View) {
+
+        this.view = addView
 
     }
 }

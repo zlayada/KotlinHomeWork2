@@ -9,11 +9,14 @@ class Profile (
     val avatar: String)
 {
 
-    fun getFullname(): String {
+    val fullname: String
+        get() = "$name $surname"
+
+    /*fun getFullname(): String {
 
         val fullname = name + " " + surname
         return fullname
-    }
+    }*/
 
 
 }
